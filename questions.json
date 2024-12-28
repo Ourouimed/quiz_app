@@ -1,0 +1,86 @@
+[
+    {
+        "question" : "What is the best Programming Language",
+        "answers" : [
+            {
+                "answer" : "JAVASCRIPT",
+                "status" : true
+            },
+            {
+                "answer" : "C++",
+                "status" : false
+            },
+            {
+                "answer" : "C",
+                "status" : false
+            },
+            {
+                "answer" : "Php",
+                "status" : false
+            }
+        ]
+    },
+    {
+        "question" : "What is Capital of morocco",
+        "answers" : [
+            {
+                "answer" : "Marrackesh",
+                "status" : false
+            },
+            {
+                "answer" : "Rabat",
+                "status" : true
+            },
+            {
+                "answer" : "Casablanca",
+                "status" : false
+            },
+            {
+                "answer" : "Tangier",
+                "status" : false
+            }
+        ]
+    },
+    {
+        "question" : "What is the best Programming Language",
+        "answers" : [
+            {
+                "answer" : "JAVASCRIPT",
+                "status" : true
+            },
+            {
+                "answer" : "C++",
+                "status" : false
+            },
+            {
+                "answer" : "C",
+                "status" : false
+            },
+            {
+                "answer" : "Php",
+                "status" : false
+            }
+        ]
+    },
+    {
+        "question" : "What is the best Programming Language",
+        "answers" : [
+            {
+                "answer" : "JAVASCRIPT",
+                "status" : true
+            },
+            {
+                "answer" : "C++",
+                "status" : false
+            },
+            {
+                "answer" : "C",
+                "status" : false
+            },
+            {
+                "answer" : "Php",
+                "status" : false
+            }
+        ]
+    }
+]
