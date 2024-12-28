@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Quiz App</title>
 </head>
-<body class="min-h-screen flex justify-center items-center bg-slate-950 p-4">
+<body class="min-h-screen flex justify-center items-center bg-slate-950 p-4 flex-col">
     <div class="container bg-white w-96 max-w-full p-2 rounded">
         <h1 class="text-3xl font-bold text-center text-cyan-500 border-b-2 border-solid border-[#ededed] pb-2 mb-2">Quiz App</h1>
         <div class="question relative">
@@ -15,6 +15,7 @@
         </div>
         <button id="next" class="mt-1 w-full bg-cyan-500 py-2 px-1 text-white rounded">Start Quiz</button>
     </div>
+    <p class="text-center text-white mt-2">&copy; <span id="date"></span> All Rights Reserved <a href="https://github.com/ourouimed" class="text-cyan-500 font-bold">Ourouimed</a></p>
     <script src="./main.js"></script>
 </body>
 </html>

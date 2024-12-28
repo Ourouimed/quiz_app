@@ -1,10 +1,16 @@
+// Json Data Url to fetch
 let JsonUrl = './questions.json'
+
 let question = document.querySelector(".question")
 let next = document.getElementById("next")
+// Initialize I by 0 (refer to number of question)
 let i = 0
-let total = 0
+// Initialize Total by 0 (refer to number of correct answers)
+let total = 0 
+// Create Quiz main structure
 const CreateQuestions = (data)=>{
     next.innerHTML = `Next`
+    // Pass Quizz Questions
     if (i < data.length){
         let QuestNum = document.createElement("span")
         QuestNum.innerHTML =`Question ${i+1}/${data.length}`
@@ -35,6 +41,7 @@ const CreateQuestions = (data)=>{
         question.append(QuestNum , Q , answers)
         i++
     }
+    // Get Quiz Result
     else {
         next.innerHTML = "Restart"
         next.addEventListener("click" , ()=>{
@@ -53,7 +60,8 @@ const CreateQuestions = (data)=>{
         `
     }
 }
-async function GetQusetions (){
+// Fetch Json Data for questions 
+async function GetQusetions (URL){
     try {
         let response = await fetch(JsonUrl)
         let questions = await response.json()
@@ -63,5 +71,7 @@ async function GetQusetions (){
         console.warn(error)
     }
 }
+// Start Quiz on button click
 next.addEventListener("click" , GetQusetions)
-
+// Get current date
+document.getElementById("date").innerHTML = new Date().getFullYear()
