@@ -1,85 +1,211 @@
 [
     {
-        "question" : "What is the best Programming Language",
-        "answers" : [
+        "question": "What does the acronym HTML stand for?",
+        "answers": [
             {
-                "answer" : "JAVASCRIPT",
-                "status" : true
+                "answer": "Hyperlinks and Text Markup Language",
+                "status": false
             },
             {
-                "answer" : "C++",
-                "status" : false
+                "answer": "Hyper Text Markup Language",
+                "status": true
             },
             {
-                "answer" : "C",
-                "status" : false
+                "answer": "Home Tool Markup Language",
+                "status": false
             },
             {
-                "answer" : "Php",
-                "status" : false
+                "answer": "Hyper Text Markdown Language",
+                "status": false
             }
         ]
     },
     {
-        "question" : "What is Capital of morocco",
-        "answers" : [
+        "question": "Which of the following is not a programming language?",
+        "answers": [
             {
-                "answer" : "Marrackesh",
-                "status" : false
+                "answer": "Python",
+                "status": false
             },
             {
-                "answer" : "Rabat",
-                "status" : true
+                "answer": "Java",
+                "status": false
             },
             {
-                "answer" : "Casablanca",
-                "status" : false
+                "answer": "HTML",
+                "status": true
             },
             {
-                "answer" : "Tangier",
-                "status" : false
+                "answer": "C++",
+                "status": false
             }
         ]
     },
     {
-        "question" : "What is the best Programming Language",
-        "answers" : [
+        "question": "What is the output of `2 ** 3` in Python?",
+        "answers": [
             {
-                "answer" : "JAVASCRIPT",
-                "status" : true
+                "answer": "6",
+                "status": false
             },
             {
-                "answer" : "C++",
-                "status" : false
+                "answer": "8",
+                "status": true
             },
             {
-                "answer" : "C",
-                "status" : false
+                "answer": "9",
+                "status": false
             },
             {
-                "answer" : "Php",
-                "status" : false
+                "answer": "12",
+                "status": false
             }
         ]
     },
     {
-        "question" : "What is the best Programming Language",
-        "answers" : [
+        "question": "Which company developed the programming language Java?",
+        "answers": [
             {
-                "answer" : "JAVASCRIPT",
-                "status" : true
+                "answer": "Microsoft",
+                "status": false
             },
             {
-                "answer" : "C++",
-                "status" : false
+                "answer": "Sun Microsystems",
+                "status": true
             },
             {
-                "answer" : "C",
-                "status" : false
+                "answer": "Google",
+                "status": false
             },
             {
-                "answer" : "Php",
-                "status" : false
+                "answer": "Apple",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Which of these is a valid CSS property?",
+        "answers": [
+            {
+                "answer": "font-weight",
+                "status": true
+            },
+            {
+                "answer": "text-height",
+                "status": false
+            },
+            {
+                "answer": "border-shadow",
+                "status": false
+            },
+            {
+                "answer": "align-elements",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "What is the default port for HTTP?",
+        "answers": [
+            {
+                "answer": "80",
+                "status": true
+            },
+            {
+                "answer": "443",
+                "status": false
+            },
+            {
+                "answer": "21",
+                "status": false
+            },
+            {
+                "answer": "22",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Which symbol is used for comments in Python?",
+        "answers": [
+            {
+                "answer": "#",
+                "status": true
+            },
+            {
+                "answer": "//",
+                "status": false
+            },
+            {
+                "answer": "'<!-- -->'",
+                "status": false
+            },
+            {
+                "answer": "/* */",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Which programming language is known as the 'mother of all languages'?",
+        "answers": [
+            {
+                "answer": "C",
+                "status": true
+            },
+            {
+                "answer": "Java",
+                "status": false
+            },
+            {
+                "answer": "Python",
+                "status": false
+            },
+            {
+                "answer": "Ruby",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Which SQL command is used to retrieve data?",
+        "answers": [
+            {
+                "answer": "INSERT",
+                "status": false
+            },
+            {
+                "answer": "SELECT",
+                "status": true
+            },
+            {
+                "answer": "UPDATE",
+                "status": false
+            },
+            {
+                "answer": "DELETE",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "What does the `console.log()` function do in JavaScript?",
+        "answers": [
+            {
+                "answer": "Displays data in the console",
+                "status": true
+            },
+            {
+                "answer": "Creates a popup alert",
+                "status": false
+            },
+            {
+                "answer": "Executes a loop",
+                "status": false
+            },
+            {
+                "answer": "Clears the console",
+                "status": false
             }
         ]
     }
