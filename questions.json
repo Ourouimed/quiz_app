@@ -1,210 +1,378 @@
 [
     {
-        "question": "What does the acronym HTML stand for?",
+        "question": "Qu'est-ce que signifie le terme `algorithme` ?",
         "answers": [
             {
-                "answer": "Hyperlinks and Text Markup Language",
+                "answer": "Une langue de programmation utilisée pour écrire des programmes.",
                 "status": false
             },
             {
-                "answer": "Hyper Text Markup Language",
+                "answer": "Une suite d'instructions permettant de résoudre un problème spécifique.",
                 "status": true
             },
             {
-                "answer": "Home Tool Markup Language",
+                "answer": "Un outil pour faire des calculs mathématiques.",
                 "status": false
             },
             {
-                "answer": "Hyper Text Markdown Language",
+                "answer": "Parmi les piliers de la POO.",
                 "status": false
             }
         ]
     },
     {
-        "question": "Which of the following is not a programming language?",
+        "question": "Qu'est-ce qu'une variable ?",
         "answers": [
             {
-                "answer": "Python",
+                "answer": "Un logiciel externe utilisé pour écrire du code.",
                 "status": false
             },
             {
-                "answer": "Java",
-                "status": false
-            },
-            {
-                "answer": "HTML",
+                "answer": "Une case mémoire où une valeur peut être stockée et modifiée.",
                 "status": true
             },
             {
-                "answer": "C++",
+                "answer": "Une valeur fixe qui ne peut jamais être modifiée.",
+                "status": false
+            },
+            {
+                "answer": "Une case de carte mère de PC.",
                 "status": false
             }
         ]
     },
     {
-        "question": "What is the output of `2 ** 3` in Python?",
+        "question": "Quels sont les trois attributs d'une variable ?",
         "answers": [
             {
-                "answer": "6",
+                "answer": "Identificateur, méthode, valeur.",
                 "status": false
             },
             {
-                "answer": "8",
+                "answer": "Variable, valeur, identificateur.",
+                "status": false
+            },
+            {
+                "answer": "Identificateur, valeur, type.",
                 "status": true
             },
             {
-                "answer": "9",
-                "status": false
-            },
-            {
-                "answer": "12",
+                "answer": "Identificateur, variable, type.",
                 "status": false
             }
         ]
     },
     {
-        "question": "Which company developed the programming language Java?",
+        "question": "Lequel de ces noms d'identificateurs est incorrect ?",
         "answers": [
             {
-                "answer": "Microsoft",
+                "answer": "_Hello",
                 "status": false
             },
             {
-                "answer": "Sun Microsystems",
+                "answer": "l'école",
                 "status": true
             },
             {
-                "answer": "Google",
+                "answer": "Age_2",
                 "status": false
             },
             {
-                "answer": "Apple",
+                "answer": "Nom",
                 "status": false
             }
         ]
     },
     {
-        "question": "Which of these is a valid CSS property?",
+        "question": "Quel est le rôle d'un opérateur arithmitique?",
         "answers": [
             {
-                "answer": "font-weight",
+                "answer": "Effectuer des calculs sur des variables et des valeurs.",
                 "status": true
             },
             {
-                "answer": "text-height",
+                "answer": "Créer des variables.",
                 "status": false
             },
             {
-                "answer": "border-shadow",
+                "answer": "Lire des données depuis un fichier.",
                 "status": false
             },
             {
-                "answer": "align-elements",
+                "answer": "Exécuter des boucles.",
                 "status": false
             }
         ]
     },
     {
-        "question": "What is the default port for HTTP?",
+        "question": "Quel est l'opérateur utilisé pour la puissance?",
         "answers": [
             {
-                "answer": "80",
+                "answer": "^",
+                "status": false
+            },
+            {
+                "answer": "*",
+                "status": false
+            },
+            {
+                "answer": "**",
                 "status": true
             },
             {
-                "answer": "443",
-                "status": false
-            },
-            {
-                "answer": "21",
-                "status": false
-            },
-            {
-                "answer": "22",
+                "answer": "/*",
                 "status": false
             }
         ]
     },
     {
-        "question": "Which symbol is used for comments in Python?",
+        "question": "Lequel de ces opérateurs est utilisé pour l'afectation ?",
         "answers": [
             {
-                "answer": "#",
+                "answer": "=",
+                "status": false
+            },
+            {
+                "answer": "<-",
                 "status": true
             },
             {
-                "answer": "//",
+                "answer": "===",
                 "status": false
             },
             {
-                "answer": "'<!-- -->'",
-                "status": false
-            },
-            {
-                "answer": "/* */",
+                "answer": "<=",
                 "status": false
             }
         ]
     },
     {
-        "question": "Which programming language is known as the 'mother of all languages'?",
+        "question": "Qu'est-ce qu'une condition en programmation ?",
         "answers": [
             {
-                "answer": "C",
+                "answer": "Une structure qui permet de choisir entre plusieurs blocs d'instructions.",
                 "status": true
             },
             {
-                "answer": "Java",
+                "answer": "Une variable qui ne peut jamais être modifiée.",
                 "status": false
             },
             {
-                "answer": "Python",
+                "answer": "Un type de boucle.",
                 "status": false
             },
             {
-                "answer": "Ruby",
+                "answer": "Un opérateur logique.",
                 "status": false
             }
         ]
     },
     {
-        "question": "Which SQL command is used to retrieve data?",
+        "question": "Que signifie l'expression suivante : N <- 5 ?",
         "answers": [
             {
-                "answer": "INSERT",
+                "answer": "a est inferieur ou egale a 5",
                 "status": false
             },
             {
-                "answer": "SELECT",
+                "answer": "5 recoie la valeur de a",
+                "status": false
+            },
+            {
+                "answer": "Incrementation de a par 5",
+                "status": false
+            },
+            {
+                "answer": "affectation de 5 a la variable N",
+                "status": true
+            }
+        ]
+    },
+    {
+        "question": "Quel est le resultat de la condition suivante : a <- 0 , si (a > 0 ) alors ecrire('a est un nombre positif')",
+        "answers": [
+            {
+                "answer": "'a est un nombre positif'",
                 "status": true
             },
             {
-                "answer": "UPDATE",
+                "answer": "'a est un nombre null'",
                 "status": false
             },
             {
-                "answer": "DELETE",
+                "answer": "Rien a afficher",
+                "status": false
+            },
+            {
+                "answer": "Error",
                 "status": false
             }
         ]
     },
     {
-        "question": "What does the `console.log()` function do in JavaScript?",
+        "question": "Quelle est la boucle qui s'exécute tant qu'une condition est vraie ?",
         "answers": [
             {
-                "answer": "Displays data in the console",
+                "answer": "tantque",
                 "status": true
             },
             {
-                "answer": "Creates a popup alert",
+                "answer": "pour",
                 "status": false
             },
             {
-                "answer": "Executes a loop",
+                "answer": "repeter jusqua",
                 "status": false
             },
             {
-                "answer": "Clears the console",
+                "answer": "si sinon",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "On dit que un entier N est pair si :",
+        "answers": [
+            {
+                "answer": "Mod 2 = N",
+                "status": true
+            },
+            {
+                "answer": "N Mod 2 = 0",
+                "status": true
+            },
+            {
+                "answer": "0 Mod N <> 2",
+                "status": false
+            },
+            {
+                "answer": "N Mod 2 = 1",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Qu'est-ce qu'un tableau 1D ?",
+        "answers": [
+            {
+                "answer": "Une collection d'éléments de même type disposés dans une seule ligne.",
+                "status": true
+            },
+            {
+                "answer": "Une structure contenant plusieurs dimensions.",
+                "status": false
+            },
+            {
+                "answer": "Un ensemble de variables avec des types différents.",
+                "status": false
+            },
+            {
+                "answer": "Un type de condition.",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Comment accéder au troisième élément d'un tableau unidimensionnel ?",
+        "answers": [
+            {
+                "answer": "tab[2]",
+                "status": true
+            },
+            {
+                "answer": "tab(3)",
+                "status": false
+            },
+            {
+                "answer": "tab[3]",
+                "status": false
+            },
+            {
+                "answer": "tab[1]",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Quel est l'indice du premier élément d'un tableau (Generalement) ?",
+        "answers": [
+            {
+                "answer": "1",
+                "status": false
+            },
+            {
+                "answer": "0",
+                "status": true
+            },
+            {
+                "answer": "-1",
+                "status": false
+            },
+            {
+                "answer": "2",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "a <- 5 ; b <- 11 ; a <- b ; b <- a ,d'apres la sequence suivante , quelle est la valeur final de a et b ?",
+        "answers": [
+            {
+                "answer": "a = 5 ; b = 5",
+                "status": false
+            },
+            {
+                "answer": "a = 11 ; b = 5",
+                "status": false
+            },
+            {
+                "answer": "a = 11 ; b = 11",
+                "status": true
+            },
+            {
+                "answer": "a = 5 ; b = 11",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Que permet l'instruction `continue` dans une boucle ?",
+        "answers": [
+            {
+                "answer": "Elle saute directement à l'itération suivante de la boucle.",
+                "status": true
+            },
+            {
+                "answer": "Elle termine immédiatement la boucle en cours.",
+                "status": false
+            },
+            {
+                "answer": "Elle répète la boucle sans condition.",
+                "status": false
+            },
+            {
+                "answer": "Elle arrête tout le programme.",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "soit le tableau suivant : T <- [1,2,3,4,5,6,7] , quelle est la declaration correcte de ce tableau",
+        "answers": [
+            {
+                "answer": "tableau : T(7)",
+                "status": false
+            },
+            {
+                "answer": "T[6] : entier",
+                "status": false
+            },
+            {
+                "answer": "tableau : T(7) : entier",
+                "status": true
+            },
+            {
+                "answer": "entier tab[];",
                 "status": false
             }
         ]
