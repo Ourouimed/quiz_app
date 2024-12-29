@@ -357,22 +357,22 @@
         ]
     },
     {
-        "question": "Qu'est le probleme avec cet algorithm : \n i <-0 \n tantque (i<10) faire \n    ecrire('bonjour') \n finTantQue",
+        "question": "Qu'est le resultat de ce traitement ? : i <-0 ; tantque (i<10) faire ecrire('bonjour') ; finTantQue",
         "answers": [
             {
-                "answer": "le traitement sera execute seulement si la condition est vrai",
+                "answer": "Error",
                 "status": false
             },
             {
-                "answer": "le traitement sera execute au moins une fois",
+                "answer": "bonjour (10 fois)",
+                "status": false
+            },
+            {
+                "answer": "C’est une boucle infinie",
                 "status": true
             },
             {
-                "answer": "le traitement sera execute seulement si la condition est fausse",
-                "status": false
-            },
-            {
-                "answer": "Elle arrête tout le programme.",
+                "answer": "bonjour (9 fois)",
                 "status": false
             }
         ]
