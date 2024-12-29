@@ -147,7 +147,7 @@
         ]
     },
     {
-        "question": "Qu'est-ce qu'une condition en programmation ?",
+        "question": "Qu'est-ce qu'une condition ?",
         "answers": [
             {
                 "answer": "Une structure qui permet de choisir entre plusieurs blocs d'instructions.",
@@ -336,18 +336,39 @@
         ]
     },
     {
-        "question": "Que permet l'instruction `continue` dans une boucle ?",
+        "question": "Dans la boucle repetez jusqu'a : ",
         "answers": [
             {
-                "answer": "Elle saute directement à l'itération suivante de la boucle.",
-                "status": true
-            },
-            {
-                "answer": "Elle termine immédiatement la boucle en cours.",
+                "answer": "le traitement sera execute seulement si la condition est vrai",
                 "status": false
             },
             {
-                "answer": "Elle répète la boucle sans condition.",
+                "answer": "le traitement sera execute au moins une fois",
+                "status": true
+            },
+            {
+                "answer": "le traitement sera execute seulement si la condition est fausse",
+                "status": false
+            },
+            {
+                "answer": "Elle arrête tout le programme.",
+                "status": false
+            }
+        ]
+    },
+    {
+        "question": "Qu'est le probleme avec cet algorithm : \n i <-0 \n tantque (i<10) faire \n    ecrire('bonjour') \n finTantQue",
+        "answers": [
+            {
+                "answer": "le traitement sera execute seulement si la condition est vrai",
+                "status": false
+            },
+            {
+                "answer": "le traitement sera execute au moins une fois",
+                "status": true
+            },
+            {
+                "answer": "le traitement sera execute seulement si la condition est fausse",
                 "status": false
             },
             {
