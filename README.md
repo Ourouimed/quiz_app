@@ -28,13 +28,22 @@ git https://github.com/Ourouimed/quiz_app.git
 ]
                 "
 ```
-## Used Technologies
+
+## 🚀 Used Technologies
 - HTML5
 - CSS3
 - JS
 - Tailwind css
 
+## ✨ Features
+- Clean, modern UI with Tailwind CSS
+- Immediate visual feedback: green for correct, red for incorrect
+- Score displayed at the end with a circular chart
+- Responsive design for all screen sizes
+- JSON-powered quiz content for easy updates
+
 ## Live Demo 
 This is some screeshots from [Live Demo](https://ourouimed.github.io/quiz_app)
 ![screenshoot1](./images/shot1.png)
 ![screenshoot2](./images/shot2.png)
+![screenshoot3](./images/shot3.png)

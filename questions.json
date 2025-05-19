@@ -1,212 +1,119 @@
 [
-    {
-        "question": "What does the acronym HTML stand for?",
-        "answers": [
-            {
-                "answer": "Hyperlinks and Text Markup Language",
-                "status": false
-            },
-            {
-                "answer": "Hyper Text Markup Language",
-                "status": true
-            },
-            {
-                "answer": "Home Tool Markup Language",
-                "status": false
-            },
-            {
-                "answer": "Hyper Text Markdown Language",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "Which of the following is not a programming language?",
-        "answers": [
-            {
-                "answer": "Python",
-                "status": false
-            },
-            {
-                "answer": "Java",
-                "status": false
-            },
-            {
-                "answer": "HTML",
-                "status": true
-            },
-            {
-                "answer": "C++",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "What is the output of `2 ** 3` in Python?",
-        "answers": [
-            {
-                "answer": "6",
-                "status": false
-            },
-            {
-                "answer": "8",
-                "status": true
-            },
-            {
-                "answer": "9",
-                "status": false
-            },
-            {
-                "answer": "12",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "Which company developed the programming language Java?",
-        "answers": [
-            {
-                "answer": "Microsoft",
-                "status": false
-            },
-            {
-                "answer": "Sun Microsystems",
-                "status": true
-            },
-            {
-                "answer": "Google",
-                "status": false
-            },
-            {
-                "answer": "Apple",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "Which of these is a valid CSS property?",
-        "answers": [
-            {
-                "answer": "font-weight",
-                "status": true
-            },
-            {
-                "answer": "text-height",
-                "status": false
-            },
-            {
-                "answer": "border-shadow",
-                "status": false
-            },
-            {
-                "answer": "align-elements",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "What is the default port for HTTP?",
-        "answers": [
-            {
-                "answer": "80",
-                "status": true
-            },
-            {
-                "answer": "443",
-                "status": false
-            },
-            {
-                "answer": "21",
-                "status": false
-            },
-            {
-                "answer": "22",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "Which symbol is used for comments in Python?",
-        "answers": [
-            {
-                "answer": "#",
-                "status": true
-            },
-            {
-                "answer": "//",
-                "status": false
-            },
-            {
-                "answer": "'<!-- -->'",
-                "status": false
-            },
-            {
-                "answer": "/* */",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "Which programming language is known as the 'mother of all languages'?",
-        "answers": [
-            {
-                "answer": "C",
-                "status": true
-            },
-            {
-                "answer": "Java",
-                "status": false
-            },
-            {
-                "answer": "Python",
-                "status": false
-            },
-            {
-                "answer": "Ruby",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "Which SQL command is used to retrieve data?",
-        "answers": [
-            {
-                "answer": "INSERT",
-                "status": false
-            },
-            {
-                "answer": "SELECT",
-                "status": true
-            },
-            {
-                "answer": "UPDATE",
-                "status": false
-            },
-            {
-                "answer": "DELETE",
-                "status": false
-            }
-        ]
-    },
-    {
-        "question": "What does the `console.log()` function do in JavaScript?",
-        "answers": [
-            {
-                "answer": "Displays data in the console",
-                "status": true
-            },
-            {
-                "answer": "Creates a popup alert",
-                "status": false
-            },
-            {
-                "answer": "Executes a loop",
-                "status": false
-            },
-            {
-                "answer": "Clears the console",
-                "status": false
-            }
-        ]
-    }
+  {
+    "question": "Quelle extension PHP est recommandée pour se connecter à une base MySQL de manière sécurisée ?",
+    "answers": [
+      { "answer": "mysql_connect()", "status": false },
+      { "answer": "PDO", "status": true },
+      { "answer": "mysql_query()", "status": false },
+      { "answer": "mysqli_query()", "status": false }
+    ]
+  },
+  {
+    "question": "À quel niveau les données envoyées via formulaire seront traitées ?",
+    "answers": [
+      { "answer": "fichier JSON", "status": false },
+      { "answer": "côté client", "status": false },
+      { "answer": "côté serveur", "status": true },
+      { "answer": "base de données", "status": false }
+    ]
+  },
+  {
+    "question": "Dans un formulaire HTML, quelle méthode doit-on utiliser pour envoyer les données en toute sécurité ?",
+    "answers": [
+      { "answer": "GET", "status": false },
+      { "answer": "POST", "status": true },
+      { "answer": "DELETE", "status": false },
+      { "answer": "UPDATE", "status": false }
+    ]
+  },
+  {
+    "question": "Quelle est la bonne syntaxe pour se connecter à une base MySQL avec PDO en PHP ?",
+    "answers": [
+      { "answer": "new PDO('mysql:host=localhost;dbname=my_db', 'utilisateur', 'motdepasse')", "status": true },
+      { "answer": "mysqli_connect('localhost', 'utilisateur', 'motdepasse', 'my_db')", "status": false },
+      { "answer": "connect_mysql('localhost', 'my_db', 'utilisateur', 'motdepasse')", "status": false },
+      { "answer": "pdo_connect('localhost', 'utilisateur', 'motdepasse', 'my_db')", "status": false }
+    ]
+  },
+  {
+    "question": "Quel code PHP permet de récupérer une donnée envoyée via un formulaire en méthode POST ?",
+    "answers": [
+      { "answer": "$_POST['nom']", "status": true },
+      { "answer": "$_GET['nom']", "status": false },
+      { "answer": "$_REQUEST['nom']", "status": false },
+      { "answer": "$_POST->nom", "status": false }
+    ]
+  },
+  {
+    "question": "Quelle commande SQL est utilisée pour insérer une nouvelle ligne dans une table ?",
+    "answers": [
+      { "answer": "INSERT INTO", "status": true },
+      { "answer": "SELECT", "status": false },
+      { "answer": "UPDATE", "status": false },
+      { "answer": "DELETE", "status": false }
+    ]
+  },
+  {
+    "question": "Quelle commande SQL permet de modifier des données existantes dans une table ?",
+    "answers": [
+      { "answer": "UPDATE", "status": true },
+      { "answer": "INSERT", "status": false },
+      { "answer": "SELECT", "status": false },
+      { "answer": "DELETE", "status": false }
+    ]
+  },
+  {
+    "question": "Quelle commande SQL permet de supprimer des données d’une table ?",
+    "answers": [
+      { "answer": "DELETE", "status": true },
+      { "answer": "DROP", "status": false },
+      { "answer": "REMOVE", "status": false },
+      { "answer": "ERASE", "status": false }
+    ]
+  },
+  {
+    "question": "Quelle méthode PDO est utilisée pour exécuter une requête préparée ?",
+    "answers": [
+      { "answer": "execute()", "status": true },
+      { "answer": "query()", "status": false },
+      { "answer": "fetch()", "status": false },
+      { "answer": "prepare()", "status": false }
+    ]
+  },
+  {
+    "question": "Quelle méthode est utilisée pour récupérer toutes les lignes d’un résultat ?",
+    "answers": [
+      { "answer": "getAll()", "status": false },
+      { "answer": "fetch()", "status": false },
+      { "answer": "fetchAll()", "status": true },
+      { "answer": "queryAll()", "status": false }
+    ]
+  },
+  {
+    "question": "Quelle méthode est utilisée pour récupérer une seule ligne d’un résultat ?",
+    "answers": [
+      { "answer": "getAll()", "status": false },
+      { "answer": "fetch()", "status": true },
+      { "answer": "fetchAll()", "status": false },
+      { "answer": "queryAll()", "status": false }
+    ]
+  },
+  {
+    "question": "Quel attribut PDO permet d’activer le mode de gestion des erreurs par exceptions ?",
+    "answers": [
+      { "answer": "PDO::ATTR_ERRMODE", "status": true },
+      { "answer": "PDO::ATTR_DEFAULT_FETCH_MODE", "status": false },
+      { "answer": "PDO::ATTR_AUTOCOMMIT", "status": false },
+      { "answer": "PDO::ATTR_CASE", "status": false }
+    ]
+  },
+  {
+    "question": "La base de données relationnelle est structurée en :",
+    "answers": [
+      { "answer": "Tables", "status": true },
+      { "answer": "Fichiers plats", "status": false },
+      { "answer": "Documents JSON", "status": false },
+      { "answer": "Collections de paires clé-valeur", "status": false }
+    ]
+  }
 ]
